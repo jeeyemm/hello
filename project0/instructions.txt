@@ -1,0 +1,34 @@
+INSTRUCTIONS:
+    1. Has three parts:
+        a. index.html (main page)
+        b. images.html (image search)
+        c. advanced.html (advanced search)
+
+    2. INDEX.HTML
+        a. search bar
+            i. centered
+            ii. with rounded corners
+        b. search button
+            i. centered
+            ii. beneath the search bar
+        c. "I'm Feeling Lucky" button
+            i. take users to the first Google search result
+
+    3. IMAGES.HTML
+        a. design is similar to index.html
+        b. should redirect to Google image results
+
+    4. ADVANCED.HTML
+        a. design is similar to google.com/advanced.search
+            i. "all these exact words"
+            ii. "this exact word or phrase"
+            iii. "any of these words"
+            iv. "none of these words"
+        b. four options should be stacked vertically
+        c. all text fields are left-aligned
+        d. advanced search button
+            i. blue with white text
+            ii. when clicked, takes you to the search results page
+
+    5. CSS
+        a. should resemble Google's own aesthetics

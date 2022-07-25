@@ -1,0 +1,131 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3E4140;
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+li {
+    float: right;
+
+    a {
+        display: block;
+        color: white;
+        text-align:center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: #5E8BD4;
+    }
+}
+
+.active {
+    background-color: #366AC9;
+}
+
+.search {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50px;
+
+
+
+    .header {
+        color: #d92011;
+
+        font-weight: 50px;
+        font-size: 24px;
+        padding-top: 55px;
+        padding-bottom: 35px;
+        border-bottom: 0.5px solid lightgray;
+        padding-left: 44px;
+    }
+
+    .container {
+        padding-top: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+
+            .row {
+
+                .col-10 {
+                    float: left;
+                    width: 15%;
+                    padding: 34px 0px 0px 44px;
+
+                    .description-1 {
+                        font-size: 20px;
+                    }
+
+
+                }
+    
+                .col-70 {
+                    float: left;
+                    width: 45%;
+                    padding: 15px 0px;
+                }
+                
+                .col-20 {
+                    float: left;
+                    width: 25%;
+                    padding-top: 30px;
+                    font-size: 13px;
+                    color: rgb(75, 72, 72);
+
+                    .description-2 {
+                        padding-top: 5px;
+                        font-weight: bold;
+                        font-size: 15px;
+
+                    }
+                }
+
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+    }
+
+}
+
+
+
+input[type=text] {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 4px 4px;
+    padding: 10px 10px;
+    width: 80%;
+    resize: vertical;
+}
+
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+  }
+
+.input {
+    padding-right: 144px;
+}
+
