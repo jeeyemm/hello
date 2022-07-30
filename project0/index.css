@@ -1,3 +1,7 @@
+/*
+CSS file for the index and Google image search webpage 
+*/
+/*Styling for the Navbar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -8,6 +12,7 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Styling for the links in the Navbar section */
 li {
   float: right;
 }
@@ -22,6 +27,7 @@ li a:hover {
   background-color: #5E8BD4;
 }
 
+/* Styling for Google search bar */
 input[type=text] {
   background-image: url("search-icon.png");
   background-repeat: no-repeat;
@@ -34,14 +40,17 @@ input[type=text] {
   width: 40%;
 }
 
+/* Visual effects on search bar */
 input[type=text]:focus {
   border: 2px solid black;
 }
 
+/* Visual effects on search bar */
 input[type=text]:hover {
   box-shadow: 3px 3px 3px gray;
 }
 
+/* Visual effects on submit button */
 input[type=submit] {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
@@ -56,10 +65,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
+/* For the active nav bar button */
 .active {
   background-color: #366AC9;
 }
 
+/* Centers the content */
 .center {
   padding: 180px 0;
   text-align: center;

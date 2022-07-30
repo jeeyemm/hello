@@ -82,6 +82,7 @@ li a:hover {
   clear: both;
 }
 
+/* Design for the text box */
 input[type=text] {
   background-color: white;
   border: 2px solid black;
@@ -92,6 +93,7 @@ input[type=text] {
   resize: vertical;
 }
 
+/* Design for the Advanced Search button */
 input[type=submit] {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
