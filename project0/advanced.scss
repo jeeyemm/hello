@@ -1,3 +1,9 @@
+/*
+CSS file for the "Advanced Search" webpage 
+*/
+
+
+/*Styling for the Navbar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -9,7 +15,7 @@ ul {
 }
 
 
-
+/* Styling for the links in the Navbar section */
 li {
     float: right;
 
@@ -26,17 +32,19 @@ li {
     }
 }
 
+/* Styling of the navbar which indicates what page you are */
 .active {
     background-color: #366AC9;
 }
 
+/* Design for the Advanced Search form */
 .search {
 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 50px;
 
 
-
+/* Design for the advanced search header */
     .header {
         color: #d92011;
 
@@ -99,7 +107,7 @@ li {
 }
 
 
-
+/* Design for the text box */
 input[type=text] {
     background-color: white;
     border: 2px solid black;
@@ -110,6 +118,7 @@ input[type=text] {
     resize: vertical;
 }
 
+/* Design for the Advanced Search button */
 input[type=submit] {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
@@ -126,6 +135,6 @@ input[type=submit] {
   }
 
 .input {
-    padding-right: 144px;
+    padding-right: 17%;
 }
 

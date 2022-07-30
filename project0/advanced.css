@@ -1,3 +1,7 @@
+/*
+CSS file for the "Advanced Search" webpage 
+*/
+/*Styling for the Navbar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -8,6 +12,7 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Styling for the links in the Navbar section */
 li {
   float: right;
 }
@@ -22,13 +27,16 @@ li a:hover {
   background-color: #5E8BD4;
 }
 
+/* Styling of the navbar which indicates what page you are */
 .active {
   background-color: #366AC9;
 }
 
+/* Design for the Advanced Search form */
 .search {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 50px;
+  /* Design for the advanced search header */
 }
 .search .header {
   color: #d92011;
@@ -100,7 +108,7 @@ input[type=submit] {
 }
 
 .input {
-  padding-right: 144px;
+  padding-right: 17%;
 }
 
 /*# sourceMappingURL=advanced.css.map */
